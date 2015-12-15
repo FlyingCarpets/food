@@ -1,17 +1,33 @@
 /**{
   border: solid 1px black;
 }*/
+
+/*blue: #36d7b6
+light grey: #EBEBEB
+darker grey: #EBEBEB*/
+
 /*MAIN PAGE*/
+html {
+    position: relative;
+    min-height: 100%;
+}
 body {
   font-family: 'PT Sans', sans-serif;
+  margin-bottom: 60px;
 }
+
 
 @media (max-width:1280px) {
   body {
     overflow-x: hidden;
   }
 }
-
+*:focus {/*nueima glow nuo jquery boxes*/
+    outline: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 .menu {
 	margin: 5px 5px 0px 5px;
   font-size: 18px;
@@ -297,3 +313,156 @@ body {
   padding-bottom: 20px;
   }
 }
+
+/*SOUPS/CASSEROLES*/
+#dish{
+  background-color: #DBDBDB;
+}
+
+#soups_container {
+  padding-top: 30px;
+}
+#soups_container h1 {
+  color: white;/*#DBDBDB*/
+  font-size: 20px;
+}
+
+#soups_container .jumbotron {
+  background-image: url("Soups/main4_1.jpg") ;
+  background-size: cover;
+  height: 400px;
+  border-radius: 0px;
+}
+#casserole_jumbotron #soups_container .jumbotron{ /*for casseroles and desserts*/
+  background-image: url("Casseroles/main1.jpg") ;
+}
+#casserole_jumbotron #soups_container h1 {
+  color: black;
+  font-size: 30px;
+}
+
+#accordion img {
+  width: 540px;
+  height: auto;
+}
+#accordion p {
+  font-size: 17px;
+}
+#accordion h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+#accordion .icons {
+  height: 70px;
+  width: auto;
+  padding-right: 50px;
+}
+#accordion {
+  padding-bottom: 20px;
+}
+@media (max-width:990px) {
+  #soups_container .col-md-12 {
+    position: absolute;
+  }
+  #soups_jumbotron .jumbotron , #casserole_jumbotron .jumbotron{
+    height: 250px;
+  }
+  #accordion .icons {
+    padding-right: 5px;
+  }
+    #accordion h3 {
+      font-size: 15px;
+  }
+}
+@media (max-width:667px) {
+    #accordion h3 img {
+      display: none;
+    }
+    #casserole_jumbotron #soups_container h1 {
+      font-size: 20px;
+    }
+}
+
+/*FOOTER*/
+
+/*.panel-default {
+    margin-bottom: 0px;
+}
+.panel-footer {
+  height: 35px;
+  border-radius: 0px;
+  font-size: 12px;
+  width: 100%;
+}
+
+.panel-default div {
+  display: inline-block;
+}
+.social {
+  height: 35px;
+  overflow: hidden;
+}
+.social *{
+  display: inline-block;
+}
+.social p {
+  padding-right: 980px;
+  height: 20px;
+}
+.social .fa-2x {
+  float: right;
+  padding-left: 5px;
+  padding-top: 0px;
+}*/
+
+#footer {
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+  background-color: #EBEBEB;
+}
+#footer p {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#footer .pull-right {
+  padding-top: 5px;
+  padding-left: 250px;
+}
+
+#footer .fa-2x{
+  color: #858585;
+  padding-left: 10px;
+}
+#footer .fa-2x:hover{
+  color: #36d7b6;
+}
+@media (max-width:1030px) {
+  #footer .pull-right {
+    padding-left: 100px;
+  }
+  #footer .col-md-8 {
+    padding-right: 300px;
+  }
+}
+@media (max-width:990px) {
+    #footer .col-md-8 {
+      padding-right: 0px;
+      width: 97%;
+    }
+    #footer .col-md-4{
+      padding-left: 0px;
+      padding-top: 0px;
+      width: 97%;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px){
+  #footer .col-md-4,.col-md-8  {
+    padding-left: 5px;
+  }
+}
+
+
+
+
+
