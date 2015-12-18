@@ -16,7 +16,6 @@ body {
   margin-bottom: 60px;
 }
 
-
 @media (max-width:1280px) {
   body {
     overflow-x: hidden;
@@ -30,13 +29,19 @@ body {
 }
 .menu {
 	margin: 5px 5px 0px 5px;
-  font-size: 18px;
+  font-size: 20px;
   /*background-color: #fff;*/
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .menu a {
   color: #858585;
+}
+.menu ul {
+  padding-top: 10px;
+}
+.menu ul li {
+  padding-left: 20px;
 }
 .navbar-nav {
   border-bottom: none;
@@ -55,6 +60,9 @@ body {
     padding: 0;
     margin: 0;
   }
+  .brand {
+    display: none;
+  }
 }
 /*CAROUSEL*/
 .carousel-control.left, .carousel-control.right {
@@ -70,6 +78,7 @@ body {
 }
 .carousel h2 {
   font-size: 40px;
+  text-shadow: 1px 1px black;
 }
 @media (min-width:1366px) {
   .carousel {
@@ -89,7 +98,9 @@ body {
   }
 }
 /*THUMBNAILS*/
-
+ a:hover {
+    text-decoration: none;
+}
 .thumbs {
   padding-top: 50px;
   background-color: #EBEBEB;/*light grey*/
@@ -315,7 +326,7 @@ body {
 }
 
 /*SOUPS/CASSEROLES*/
-#dish{
+#dish {
   background-color: #DBDBDB;
 }
 
@@ -324,23 +335,56 @@ body {
 }
 #soups_container h1 {
   color: white;/*#DBDBDB*/
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #soups_container .jumbotron {
-  background-image: url("Soups/main4_1.jpg") ;
+  background-image: url("Soups/main4_1.jpg");
   background-size: cover;
   height: 400px;
   border-radius: 0px;
 }
 #casserole_jumbotron #soups_container .jumbotron{ /*for casseroles and desserts*/
-  background-image: url("Casseroles/main1.jpg") ;
+  background-image: url("Casseroles/main1.jpg");
 }
 #casserole_jumbotron #soups_container h1 {
-  color: black;
+  color: #973600;
   font-size: 30px;
+  text-shadow: 1px 1px black;
 }
+#desserts_jumbotron #soups_container .jumbotron{ /*for casseroles and desserts*/
+  background-image: url("Desserts/main8.jpg");
 
+}
+#desserts_jumbotron #soups_container h1 {
+  color: white;
+  font-size: 30px;
+  text-shadow: 1px 1px black;
+}
+#christmas_jumbotron #soups_container .jumbotron{ /*for casseroles and desserts*/
+  background-image: url("Christmas/main1.jpg");
+}
+#christmas_jumbotron #soups_container h1 {
+  color: white;
+  font-size: 35px;
+  text-shadow: 1px 1px black;
+}
+#vegan_jumbotron #soups_container .jumbotron{ /*for casseroles and desserts*/
+  background-image: url("Vegan/main.jpg");
+}
+#vegan_jumbotron #soups_container h1 {
+  color: white;
+  font-size: 35px;
+  text-shadow: 1px 1px black;
+}
+#smoothie_jumbotron #soups_container .jumbotron{ /*for casseroles and desserts*/
+  background-image: url("Smoothies/main3.jpg");
+}
+#smoothie_jumbotron #soups_container h1 {
+  color: #2DB2E0;
+  font-size: 35px;
+  text-shadow: 1px 1px black;
+}
 #accordion img {
   width: 540px;
   height: auto;
@@ -364,14 +408,14 @@ body {
   #soups_container .col-md-12 {
     position: absolute;
   }
-  #soups_jumbotron .jumbotron , #casserole_jumbotron .jumbotron{
+  #soups_jumbotron .jumbotron , #casserole_jumbotron .jumbotron , #desserts_jumbotron .jumbotron , #christmas_jumbotron .jumbotron , #vegan_jumbotron .jumbotron , #smoothie_jumbotron .jumbotron {
     height: 250px;
   }
   #accordion .icons {
     padding-right: 5px;
   }
-    #accordion h3 {
-      font-size: 15px;
+  #accordion h3 {
+    font-size: 15px;
   }
 }
 @media (max-width:667px) {
@@ -380,6 +424,10 @@ body {
     }
     #casserole_jumbotron #soups_container h1 {
       font-size: 20px;
+    }
+    #accordion .col-md-6 {
+      height: 100%;
+      width: auto;
     }
 }
 

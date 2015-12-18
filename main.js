@@ -10,8 +10,6 @@ $(document).ready(function(){
         collapsible: true,
     });
 
-	
-
 	//adipoli
     $('.row1').adipoli({
 		'startEffect' : 'normal',
@@ -23,6 +21,8 @@ $(document).ready(function(){
 	overlay.height(img.css("height"));
 	overlay.css("top", img.offset().top + "px");
 	overlay.css("left", img.offset().left + "px");
+
+
 });
 
 $(document).ready(function(){
@@ -30,6 +30,15 @@ $(document).ready(function(){
       interval: 2000
     });
 });
+
+
+//$(window).resize(function(){
+//	if ($(window).width() <= 770){	
+//		$('.brand').insertBefore($('.navbar-default'));
+//	} 
+//});
+
+
 
 
 
