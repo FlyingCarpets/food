@@ -14,13 +14,9 @@ html {
 body {
   font-family: 'PT Sans', sans-serif;
   margin-bottom: 60px;
+  overflow-x: hidden;
 }
 
-@media (max-width:1280px) {
-  body {
-    overflow-x: hidden;
-  }
-}
 *:focus {/*nueima glow nuo jquery boxes*/
     outline: none;
     -moz-box-shadow: none;
@@ -55,13 +51,19 @@ body {
   border: none;
   margin-bottom: 0;
 }
+.brand img {
+  height: 80px;
+}
 @media (max-width:770px) {
   .menu {
-    padding: 0;
-    margin: 0;
+    /*margin: 0;
+    padding: 0;*/
   }
   .brand {
-    display: none;
+    padding-left: 10px;
+  }
+  .brand img {
+    height: 60px;
   }
 }
 /*CAROUSEL*/
@@ -510,6 +512,8 @@ body {
   }
 }
 
+
+/*test*/
 
 
 
