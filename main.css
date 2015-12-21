@@ -84,14 +84,15 @@ body {
 }
 @media (min-width:1366px) {
   .carousel {
-
     margin-left: 5%;
     margin-right: 5%;
   }
+  .brand {
+    padding-left: 20px;
+  }
 }
-@media (min-width:1366px) {
+@media (min-width:1600px) {
   .carousel {
-
     margin-left: 10%;
     margin-right: 10%;
   }
