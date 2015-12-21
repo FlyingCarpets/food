@@ -82,6 +82,18 @@ body {
   font-size: 40px;
   text-shadow: 1px 1px black;
 }
+@media (min-width:1366px) {
+  .carousel {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width:1366px) {
+  .carousel {
+    width: 100%;
+    height: auto;
+  }
+}
 /*@media (min-width:1366px) {
   .carousel {
     margin-left: 5%; 
