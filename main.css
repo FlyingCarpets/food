@@ -82,7 +82,7 @@ body {
   font-size: 40px;
   text-shadow: 1px 1px black;
 }
-@media (min-width:1366px) {
+/*@media (min-width:1366px) {
   .carousel {
     margin-left: 5%; 
   }
@@ -98,7 +98,7 @@ body {
   .carousel-control.right .glyphicon-chevron-right {
     margin-right: 300px;
   }
-}
+}*/
 /*THUMBNAILS*/
  a:hover {
     text-decoration: none;
