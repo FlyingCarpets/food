@@ -82,41 +82,19 @@ body {
   font-size: 40px;
   text-shadow: 1px 1px black;
 }
+.carousel-inner .item.active img {
+  margin: 0 auto; /*jumbotron margins auto*/
+}
 @media (min-width:1366px) {
-  .carousel {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
   .brand {
     padding-left: 50px;
   }
 }
 @media (min-width:1600px) {
-  .carousel {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
   .brand {
     padding-left: 50px;
   }
 }
-/*@media (min-width:1366px) {
-  .carousel {
-    margin-left: 5%; 
-  }
-  .carousel-control.right .glyphicon-chevron-right {
-    margin-right: 120px;
-  }
-}
-
-@media (min-width:1600px) {
-  .carousel {
-    margin-left: 10%;
-  }
-  .carousel-control.right .glyphicon-chevron-right {
-    margin-right: 300px;
-  }
-}*/
 /*THUMBNAILS*/
  a:hover {
     text-decoration: none;
@@ -169,9 +147,6 @@ body {
 
 /**/
 
-/*.thumbnail:hover {
-  background-color: #36d7b6;
-}*/
 
 .thumbnail img {
 	float: left;
@@ -202,16 +177,6 @@ body {
 .thumbnail #christmas p{
   text-align: center;
 }
-/*.thumbnail #christmas h2{
-  padding-left: 620px;
-}
-.thumbnail #christmas h4{
-  padding-left: 620px;
-  padding-bottom: 10px;
-}
-.thumbnail #christmas p{
-  padding-left: 620px;
-}*/
 
 .thumbnail #dessert h2{
   text-align: center;
@@ -453,36 +418,6 @@ body {
 
 /*FOOTER*/
 
-/*.panel-default {
-    margin-bottom: 0px;
-}
-.panel-footer {
-  height: 35px;
-  border-radius: 0px;
-  font-size: 12px;
-  width: 100%;
-}
-
-.panel-default div {
-  display: inline-block;
-}
-.social {
-  height: 35px;
-  overflow: hidden;
-}
-.social *{
-  display: inline-block;
-}
-.social p {
-  padding-right: 980px;
-  height: 20px;
-}
-.social .fa-2x {
-  float: right;
-  padding-left: 5px;
-  padding-top: 0px;
-}*/
-
 #footer {
   position: absolute;
   bottom: -10px;
@@ -529,10 +464,4 @@ body {
     padding-left: 5px;
   }
 }
-
-
-/*test*/
-
-
-
 
