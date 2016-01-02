@@ -330,8 +330,8 @@ body {
   background-color: #DBDBDB;
   padding-bottom: 0px;
 }
-#dish #accordion .container {
-  padding-bottom: 0px;
+.ui-accordion .ui-accordion-content {
+  height: 50%;/*height of open accordion*/
 }
 
 #soups_container {
@@ -383,6 +383,7 @@ body {
 }
 #smoothie_jumbotron #soups_container .jumbotron{ /*for casseroles and desserts*/
   background-image: url("Smoothies/main3.jpg");
+  background-position: center;
 }
 #smoothie_jumbotron #soups_container h1 {
   /*color: #2DB2E0;
@@ -416,19 +417,22 @@ body {
   #soups_jumbotron .jumbotron , #casserole_jumbotron .jumbotron , #desserts_jumbotron .jumbotron , #christmas_jumbotron .jumbotron , #vegan_jumbotron .jumbotron , #smoothie_jumbotron .jumbotron {
     height: 250px;
   }
+  #casserole_jumbotron #soups_container h1, #soups_jumbotron #soups_container h1, #christmas_jumbotron #soups_container h1, #desserts_jumbotron #soups_container h1, #smoothie_jumbotron #soups_container h1, #vegan_jumbotron #soups_container h1 {
+    font-size: 25px;
+  }
   #accordion .icons {
     padding-right: 5px;
   }
   #accordion h3 {
     font-size: 15px;
   }
+  #soups_container .col-md-12 {
+    width: 80%;
+  }
 }
 @media (max-width:667px) {
     #accordion h3 img {
       display: none;
-    }
-    #casserole_jumbotron #soups_container h1 {
-      font-size: 20px;
     }
     #accordion .col-md-6 {
       height: 100%;
