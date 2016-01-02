@@ -232,6 +232,12 @@ body {
     width: 100%;
     height: auto; 
   }
+  .thumbnail .left {
+    border-right: 0px;
+  }
+  .thumbnail #right{
+    border-left: 0px;
+  }
   .thumbs h1 {
     font-size: 35px;
   }
