@@ -1,6 +1,11 @@
 $(document).ready(function(){
 	//alert("Busy");
-
+	//image preloader
+	$('body').waitForImages({
+    waitForAll: true,
+    finished: function() {
+    	}  
+	});
 	//accordion
 
 	$("#accordion").fadeIn("slow");
@@ -22,12 +27,6 @@ $(document).ready(function(){
 	overlay.css("top", img.offset().top + "px");
 	overlay.css("left", img.offset().left + "px");
 
-	//image preloader
-	$('body').waitForImages({
-    waitForAll: true,
-    finished: function() {
-    	}  
-	});
 
 });
 
