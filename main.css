@@ -143,19 +143,19 @@ body {
   background-image: url("Thumbs/christmas1grey1.jpg");
 }
 #christmas:hover {
-  background-image: url("Thumbs/christmas1blue4.jpg") no-repeat -9999px -9999px;
+  background-image: url("Thumbs/christmas1blue4.jpg");
 }
 #dessert {
   background-image: url("Thumbs/dessert7grey4.jpg");
 }
 #dessert:hover {
-  background-image: url("Thumbs/dessert7blue4.jpg") no-repeat -9999px -9999px;
+  background-image: url("Thumbs/dessert7blue4.jpg");
 }
 #sport {
   background-image: url("Thumbs/bikegrey1.jpg");
 }
 #sport:hover {
-  background-image: url("Thumbs/bikeblue4.jpg") no-repeat -9999px -9999px;
+  background-image: url("Thumbs/bikeblue4.jpg");
 }
 
 /**/
