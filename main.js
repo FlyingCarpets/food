@@ -1,11 +1,11 @@
 $(document).ready(function(){
 	//alert("Busy");
-	//image preloader
-	$('body').waitForImages({
-    waitForAll: true,
-    finished: function() {
-    	}  
-	});
+	$.fn.preload = function() {
+    this.each(function(){
+        $('<img/>')[0].src = this;
+    });
+	}
+	$(['Thumbs/christmas1blue4.jpg','Thumbs/dessert7blue4.jpg','Thumbs/bikeblue4.jpg']).preload();
 	//accordion
 
 	$("#accordion").fadeIn("slow");
