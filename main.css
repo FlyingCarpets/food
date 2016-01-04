@@ -336,9 +336,6 @@ body {
   background-color: #DBDBDB;
   padding-bottom: 0px;
 }
-.ui-accordion .ui-accordion-content {
-  height: 50%;/*height of open accordion*/
-}
 
 #soups_container {
   padding-top: 30px;
@@ -439,10 +436,6 @@ body {
 @media (max-width:667px) {
     #accordion h3 img {
       display: none;
-    }
-    #accordion .col-md-6 {
-      height: 100%;
-      width: auto;
     }
 }
 

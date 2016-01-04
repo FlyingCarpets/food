@@ -13,6 +13,7 @@ $(document).ready(function(){
 		event: "click",
         active: false,
         collapsible: true,
+        heightStyle: "content",
     });
 
 	//adipoli
