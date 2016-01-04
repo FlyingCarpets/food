@@ -23,13 +23,13 @@ $(document).ready(function(){
 	overlay.css("left", img.offset().left + "px");
 
 	//image preloader
-	$.preloadImages = function() {
- 		for (var i = 0; i < arguments.length; i++) {
-    	$("<img />").attr("src", arguments[i]);
-  		}
+	$.fn.preload = function() {
+    this.each(function(){
+        $('<img/>')[0].src = this;
+    });
 	}
 
-	$.preloadImages("Thumbs/christmas1blue4.jpg","Thumbs/dessert7blue4.jpg","Thumbs/bikeblue4.jpg");
+	$(['Thumbs/christmas1blue4.jpg','Thumbs/dessert7blue4.jpg','Thumbs/bikeblue4.jpg']).preload();
 
 });
 
