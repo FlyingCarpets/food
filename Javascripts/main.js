@@ -5,7 +5,7 @@ $(document).ready(function(){
         $('<img/>')[0].src = this;
     });
 	}
-	$(['../images/Thumbs/christmas1blue4.jpg','../images/Thumbs/dessert7blue4.jpg','../images/Thumbs/bikeblue4.jpg']).preload();
+	$(['images/Thumbs/christmas1blue4.jpg','images/Thumbs/dessert7blue4.jpg','images/Thumbs/bikeblue4.jpg']).preload();
 	//accordion
 
 	$("#accordion").fadeIn("slow");
