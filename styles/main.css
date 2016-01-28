@@ -96,28 +96,30 @@ body {
   .brand {
     padding-left: 50px;
   }
-  .carousel {
-    background-color: red;
-  }
   .carousel .next {
-    padding-left: 100px;
+    padding-left: 40px;
   }
   .carousel .prev {
-    padding-left: 60px;  
+    padding-left: 30px;  
+  }
+}
+@media (min-width:1440px) {
+  .carousel .next {
+    padding-left: 120px;
+  }
+  .carousel .prev {
+    padding-left: 100px;  
   }
 }
 @media (min-width:1600px) {
   .brand {
     padding-left: 50px;
   }
-    .carousel {
-    background-color: blue;
-  }
   .carousel .next {
-    padding-left: 200px;
+    padding-left: 260px;
   }
   .carousel .prev {
-    padding-left: 200px;  
+    padding-left: 260px;  
   }
 }
 /*THUMBNAILS*/
