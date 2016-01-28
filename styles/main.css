@@ -96,10 +96,22 @@ body {
   .brand {
     padding-left: 50px;
   }
+  .carousel .next {
+    padding-left: 80px;
+  }
+  .carousel .prev {
+    padding-left: 80px;  
+  }
 }
 @media (min-width:1600px) {
   .brand {
     padding-left: 50px;
+  }
+  .carousel .next {
+    padding-left: 200px;
+  }
+  .carousel .prev {
+    padding-left: 200px;  
   }
 }
 /*THUMBNAILS*/
@@ -478,4 +490,5 @@ body {
     padding-left: 5px;
   }
 }
+
 
