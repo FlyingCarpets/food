@@ -96,16 +96,22 @@ body {
   .brand {
     padding-left: 50px;
   }
+  .carousel {
+    background-color: red;
+  }
   .carousel .next {
-    padding-left: 80px;
+    padding-left: 100px;
   }
   .carousel .prev {
-    padding-left: 80px;  
+    padding-left: 60px;  
   }
 }
 @media (min-width:1600px) {
   .brand {
     padding-left: 50px;
+  }
+    .carousel {
+    background-color: blue;
   }
   .carousel .next {
     padding-left: 200px;
