@@ -1,12 +1,10 @@
-/**{
-  border: solid 1px black;
-}*/
+/*COLORS USED---------------------*/
 
 /*blue: #36d7b6
 light grey: #EBEBEB
 darker grey: #EBEBEB*/
 
-/*MAIN PAGE*/
+/*MAIN ELEMENTS--------------------*/
 html {
     position: relative;
     min-height: 100%;
@@ -23,6 +21,7 @@ body {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+/*MAIN PAGE--------------------*/
 .menu {
 	margin: 5px 5px 0px 5px;
   font-size: 20px;
@@ -72,7 +71,7 @@ body {
     height: 60px;
   }
 }
-/*CAROUSEL*/
+/*CAROUSEL------------------------*/
 
 .carousel-control.left, .carousel-control.right {
   background: none !important;
@@ -90,7 +89,7 @@ body {
   text-shadow: 1px 1px black;
 }
 .carousel-inner .item.active img {
-  margin: 0 auto; /*jumbotron margins auto*/
+  margin: 0 auto; 
 }
 @media (min-width:1366px) {
   .brand {
@@ -122,13 +121,13 @@ body {
     padding-left: 260px;  
   }
 }
-/*THUMBNAILS*/
+/*THUMBNAILS---------------------*/
  a:hover {
     text-decoration: none;
 }
 .thumbs {
   padding-top: 50px;
-  background-color: #EBEBEB;/*light grey*/
+  background-color: #EBEBEB;
 }
 .thumbs h1 {
   text-align: center;
@@ -141,16 +140,13 @@ body {
   border: 0 none;
   border-radius: 0;
   padding: 0;
-  background-color: #999;/*darker grey*/
+  background-color: #999;
 }
 .thumbnail:hover {
   box-shadow: 0 1px 8px black;
 }
 .caption {
     height: 450px;
-}
-.caption img{
-  top-margin: 100px;
 }
 
 #christmas{
@@ -171,9 +167,6 @@ body {
 #sport:hover {
   background-image: url("../images/Thumbs/bikeblue4.jpg");
 }
-
-/**/
-
 
 .thumbnail img {
 	float: left;
@@ -344,8 +337,56 @@ body {
   padding-bottom: 20px;
   }
 }
+/*FOOTER-----------------------*/
 
-/*SOUPS/CASSEROLES*/
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #EBEBEB;
+}
+#footer p {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#footer .pull-right {
+  padding-top: 5px;
+  padding-left: 250px;
+}
+
+#footer .fa-2x{
+  color: #858585;
+  padding-left: 10px;
+}
+#footer .fa-2x:hover{
+  color: #36d7b6;
+}
+
+@media (max-width:1030px) {
+  #footer .pull-right {
+    padding-left: 100px;
+  }
+  #footer .col-md-8 {
+    padding-right: 300px;
+  }
+}
+@media (max-width:990px) {
+    #footer .col-md-8 {
+      padding-right: 0px;
+      width: 97%;
+    }
+    #footer .col-md-4{
+      padding-left: 0px;
+      padding-top: 0px;
+      width: 97%;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px){
+  #footer .col-md-4,.col-md-8  {
+    padding-left: 5px;
+  }
+}
+/*SOUPS/CASSEROLES/DESSERTS/CHRISTMAS/VEGAN/SMOOTHIES---------------------*/
 #dish {
   background-color: #DBDBDB;
   padding-bottom: 0px;
@@ -355,7 +396,7 @@ body {
   padding-top: 30px;
 }
 #soups_container h1 {
-  color: black;/*#DBDBDB*/
+  color: black;
   font-size: 30px;
 }
 #soups_container .col-md-12 {
@@ -368,35 +409,35 @@ body {
   height: 400px;
   border-radius: 0px;
 }
-#casserole_jumbotron #soups_container .jumbotron{ /*for casseroles and desserts*/
+#casserole_jumbotron #soups_container .jumbotron{ 
   background-image: url("../images/Casseroles/main1.jpg");
 }
 #casserole_jumbotron #soups_container h1 {
   color: black;
   font-size: 30px;  
 }
-#desserts_jumbotron #soups_container .jumbotron{ /*for casseroles and desserts*/
+#desserts_jumbotron #soups_container .jumbotron{ 
   background-image: url("../images/Desserts/main8.jpg");
 }
 #desserts_jumbotron #soups_container h1 {
   color: black;
   font-size: 30px;
 }
-#christmas_jumbotron #soups_container .jumbotron{ /*for casseroles and desserts*/
+#christmas_jumbotron #soups_container .jumbotron{ 
   background-image: url("../images/Christmas/main1.jpg");
 }
 #christmas_jumbotron #soups_container h1 {
   color: black;
   font-size: 35px;
 }
-#vegan_jumbotron #soups_container .jumbotron{ /*for casseroles and desserts*/
+#vegan_jumbotron #soups_container .jumbotron{ 
   background-image: url("../images/Vegan/main.jpg");
 }
 #vegan_jumbotron #soups_container h1 {
   color: black;
   font-size: 35px;
 }
-#smoothie_jumbotron #soups_container .jumbotron{ /*for casseroles and desserts*/
+#smoothie_jumbotron #soups_container .jumbotron{ 
   background-image: url("../images/Smoothies/main3.jpg");
   background-position: center;
 }
@@ -447,56 +488,6 @@ body {
     #accordion h3 img {
       display: none;
     }
-}
-
-/*FOOTER*/
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #EBEBEB;
-}
-#footer p {
-  padding-top: 10px;
-  padding-left: 10px;
-}
-#footer .pull-right {
-  padding-top: 5px;
-  padding-left: 250px;
-}
-
-#footer .fa-2x{
-  color: #858585;
-  padding-left: 10px;
-}
-#footer .fa-2x:hover{
-  color: #36d7b6;
-}
-
-@media (max-width:1030px) {
-  #footer .pull-right {
-    padding-left: 100px;
-  }
-  #footer .col-md-8 {
-    padding-right: 300px;
-  }
-}
-@media (max-width:990px) {
-    #footer .col-md-8 {
-      padding-right: 0px;
-      width: 97%;
-    }
-    #footer .col-md-4{
-      padding-left: 0px;
-      padding-top: 0px;
-      width: 97%;
-    }
-}
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px){
-  #footer .col-md-4,.col-md-8  {
-    padding-left: 5px;
-  }
 }
 
 
